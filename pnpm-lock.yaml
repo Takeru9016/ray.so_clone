@@ -50,6 +50,9 @@ dependencies:
   react-hot-toast:
     specifier: ^2.4.1
     version: 2.4.1(csstype@3.1.2)(react-dom@18.2.0)(react@18.2.0)
+  react-hotkeys-hook:
+    specifier: ^4.4.1
+    version: 4.4.1(react-dom@18.2.0)(react@18.2.0)
   react-simple-code-editor:
     specifier: ^0.13.1
     version: 0.13.1(react-dom@18.2.0)(react@18.2.0)
@@ -2783,6 +2786,16 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
       - csstype
+    dev: false
+
+  /react-hotkeys-hook@4.4.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-sClBMBioFEgFGYLTWWRKvhxcCx1DRznd+wkFHwQZspnRBkHTgruKIHptlK/U/2DPX8BhHoRGzpMVWUXMmdZlmw==}
+    peerDependencies:
+      react: '>=16.8.1'
+      react-dom: '>=16.8.1'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react-is@16.13.1:
